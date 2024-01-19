@@ -8,3 +8,5 @@ module.exports = {
 
 const fs = require("fs");
 fs.writeFileSync("karan.txt", "hello karan kushwaha");
+
+const fs1 = require("fs").writeFileSync("my.txt", "hello kushwaha");
