@@ -14,6 +14,10 @@ app.get("/profile", (req, resp) => {
   resp.render("profile", { user });
 });
 
+app.get("/login", (req, resp) => {
+  resp.render("login");
+});
+
 // console.log(viewsPath);
 
 app.listen(4500);
